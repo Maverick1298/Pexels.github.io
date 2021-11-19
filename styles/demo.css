@@ -1,0 +1,75 @@
+body{
+    background: rgb(43, 42, 42);
+
+}
+.banner{
+    font-family: 'Dongle';
+    text-transform: capitalize;
+    text-align: center;
+    border:1px solid rgb(91, 97, 78); 
+    min-width: 45px;
+    min-height: 20px;
+    
+}
+.container{
+    margin: auto;
+}
+.image-container{
+    position: fixed;
+    padding:2px;
+    display: block;
+    width:max-content;
+    height: 515px;
+    background-color: rgb(43, 67, 68);
+}
+h2{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1.1px;
+    min-width: 12px;
+    min-height: 10px;    
+}
+
+.travel-out, .city-main, .camp-night, .camp-one-out{ 
+    padding: 10.5px;
+    margin:0 auto;
+    float: left;
+    height: 500px;
+    min-height: 500px;
+    width: 315px;
+    min-width: 313px;
+    
+}
+
+.tavel-o-img, .city-main-img, .camp-out-img, .camp-night-img {
+    display: block;  
+    margin: 0 auto;
+    width: 320px;
+    min-width: 320px;
+    height: 495px;
+    min-height: 480px;
+    position: relative;
+}
+.over {
+    display:block;
+    position:relative; 
+    bottom: 59px;  
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: rgb(219, 210, 210); 
+    width: 280px;
+    transition: 0.5s ease;
+    opacity:0;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    font-family: monospace;
+    text-align:center;
+
+  }
+
+.travel-out:hover .over, .city-main:hover .over, .camp-night:hover .over, .camp-one-out:hover .over{
+    opacity: 1;
+    box-shadow: ivory;
+}
+ 

@@ -1,0 +1,108 @@
+body{
+    background:#09090B;
+}
+.banner{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    border:1px solid rgb(91, 97, 78); 
+    max-width: 100%;
+    width: 1325px;
+    margin-left: 5px;
+    height: 70px;
+
+}
+#homebtn{
+    margin: 5px;
+    float: left;
+}
+#home-btn, #home-btn:hover{
+    max-width: 5px;
+    width: 0.5 px;
+    max-height: 5px;
+    height: 1px;
+ 
+}
+h2{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    min-width: 10px;
+    min-height: 8px;    
+}
+
+.image-container, .image-containerlvl2, .image-containerlvl3{
+    width: 1333px;
+    min-width: 1080px;
+    height: 450px;
+    min-height: 450px;
+    background:#09090B;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+.cityzero, .cityim1, .cityim2, .cityim3, .cityim4, .cityim5, .cityim6, .cityim7, .cityim8, .cityim9, .cityim10, .cityim11, .cityim12
+{ 
+    float: left;
+    height: 300px;
+    min-height: 300px;
+    width: 270px;
+    min-width: 250px;
+    position: relative;
+    margin-right: 48px;
+    margin-left: 10.5px;
+    box-sizing: border-box;
+}
+
+.cityzimg, .cm1img, .cm2img, .cm3img, .cm4img, .cm5img, .cm6img, .cm7img, .cm8img, .cm9img, .cm10img, .cm11img, .cm12img{
+    display: block;
+    margin: 0 auto;
+    width: 315px;
+    min-width: 300px;   
+    height: 438px;
+    min-height: 438px;
+    image-resolution: 300dpi;
+    box-sizing: border-box;
+    transition: box-shadow .3s;
+
+}
+.image-containerlvl4{
+    margin: 0 auto;
+    width: 1333px;
+    min-width: 1080px;
+    height: 250px;
+    min-height: 200px;
+    background:#09090B;;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+.cityvid, .cityim13, .cmitym14{
+    float: left;
+    height: 300px;
+    width: 350px;
+    min-width: 300px;
+    min-height: 200px;
+    box-sizing: border-box;
+    display: block;
+    padding: 1px;
+    margin-right: 15px;
+    margin-left: 60px;
+}
+.cm10vid, .cm13img, .cm14img{
+    display: inline-block;
+    margin: 0 auto;
+    height: 235px;
+    width: 350px;
+    min-width: 250px;
+    min-height: 200px;
+    box-sizing: border-box;
+    bottom: 10px;
+}
+.cityzimg:hover, .cm1img:hover, .cm2img:hover, .cm3img:hover, .cm4img:hover, .cm5img:hover, .cm6img:hover, .cm7img:hover, .cm8img:hover, .cm9img:hover, .cm10img:hover, .cm11img:hover, .cm12img:hover, 
+.cm10vid:hover, .cm13img:hover, .cm14img:hover{
+    box-shadow: 0 0 11px #5e9b79ef;
+ 
+  }

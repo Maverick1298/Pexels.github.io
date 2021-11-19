@@ -1,0 +1,68 @@
+body{
+    background: #09090B;
+
+}
+.banner{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    border: solid #F9F9F9; 
+    min-width: 40px;
+    width: 1325px;
+    height: auto;
+    min-height: 10px;
+    position: fixed;
+    background: black;
+}
+#homebtn{
+    margin: 5px;
+    float: left;
+}
+#home-btn, #home-btn:hover{
+    max-width: 5px;
+    width: 0.5 px;
+    max-height: 5px;
+    height: 1px; 
+}
+h2{
+    color:#fefae0;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    min-width: 10px;
+    min-height: 8px;    
+}
+.container{
+    margin:0 auto;
+    max-width: 100%;
+    
+}
+.image-container{
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 80px;
+
+}
+.frame {
+    width: 320px;
+    max-width: 100%;
+    height:100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6px;
+    vertical-align: middle;
+    vertical-align: top;
+
+}
+#exp1, #exp2, #exp3, #exp4, #exp5{
+    display:block;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
+img:hover{
+box-shadow:0 0 11px #5b6104;
+}
