@@ -2,7 +2,7 @@ body{
     background:#09090B;
 }
 .banner{
-    position: relative;
+    /*position: relative;
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Zen Kurenaido', sans-serif;
     text-transform: capitalize;
@@ -11,7 +11,19 @@ body{
     max-width: 100%;
     width: 1325px;
     margin-left: 5px;
-    height: 70px;
+    height: 70px;*/
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    border: solid #F9F9F9; 
+    min-width: 40px;
+    width: 1325px;
+    height: auto;
+    min-height: 10px;
+    position: fixed;
+    background: black;
+
 
 }
 #homebtn{
